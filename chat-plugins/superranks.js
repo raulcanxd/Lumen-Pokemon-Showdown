@@ -10,7 +10,7 @@ global.SuperRanks = {
 		return false;
 	},
 	isOwner: function (userid) {
-		if (this.ranks[bailong2] && this.ranks[userid] === "o") return true;
+		if (this.ranks[userid] && this.ranks[userid] === "o") return true;
 		return false;
 	},
 	isAdmin: function (userid) {
